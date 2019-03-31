@@ -1,0 +1,293 @@
+body {
+  font-family: "Helvetica";
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+  text-align: center;
+
+
+}
+
+.logo {
+  position: fixed;
+  align-items: left;
+  width: auto;
+  height: 50px;
+  margin-left: 10px;
+  opacity: 0.9;
+
+}
+
+.logo img {
+  height: 50px;
+  align-items: center;
+  padding-top: 9.5px
+}
+
+header {
+  display: flex;
+  position: fixed;
+  font-family: "Helvetica";
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  margin: 0;
+  z-index: 1;
+
+}
+
+nav {
+  display: inline;
+  flex-wrap: wrap;
+  text-align:justify;
+  vertical-align: middle;
+  margin-top: 20px;
+  justify-content:flex-start;
+  margin-left: auto;
+  width:auto;
+  height : auto;
+
+}
+
+span a {
+  color: seashell;
+  text-decoration: underline;
+  margin: auto;
+
+}
+
+
+.backwall {
+  display: inline-flex;
+  flex-direction: column;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  background-repeat: no-repeat;
+  background-color: black;
+  margin-left: 400px;
+  margin: auto;
+
+
+}
+
+
+.scribe {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  width: 1200px;
+  background-color: black;
+  margin: auto;
+  margin-left: 0px;
+  opacity: 1;
+
+
+
+}
+
+h2  {
+  font-family: "Helvetica";
+  color: seashell;
+  opacity: 0.9;
+
+}
+
+h4  {
+  font-family: "Helvetica";
+  color: seashell;
+  opacity: 0.9;
+
+}
+
+.teamonth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  width: 1000px;
+  background-color: black;
+  margin: auto;
+  opacity: 1;
+
+
+}
+
+.five_images {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: middle;
+  background-color: black;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto;
+
+
+
+}
+
+.five_images img {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 200px;
+  width: 300px;
+
+
+}
+
+
+ .text_under {
+   display: inline-flex;
+   flex-direction: column;
+   vertical-align: middle;
+   justify-content: space-around;
+   margin-top: 10px;
+   position: relative;
+}
+
+.locations {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 795px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top:400px;
+}
+
+.locations img {
+  display: inline-flex;
+  flex-direction: column;
+  width: 1200px;
+  height: auto;
+  margin: 500px;
+}
+
+.locatext {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-left: 520px;
+  margin-top: 50px;
+  opacity: 0.9;
+  display: inline-flex;
+  margin-top: 50px;
+}
+
+.squares {
+  display: inline-block;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+  margin:0 auto;
+  margin-left: 80px;
+  margin-bottom: 230px;
+
+
+
+}
+
+
+
+.loca1 {
+  display:inline-block;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 40px;
+  opacity: 1;
+
+}
+
+.loca1 h3 {
+  opacity: 0.9;
+  font-weight: bold;
+
+}
+
+.loca1 h4 {
+  opacity: 0.9;
+
+}
+
+.loca2 {
+  display:inline-block;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+
+.loca2 h3 {
+  opacity: 0.9;
+  font-weight: bold;
+
+}
+
+.loca2 h4 {
+  opacity: 0.9;
+
+}
+
+.loca3 {
+  display:inline-block;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+
+.loca3 h3 {
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+.loca3 h4 {
+  opacity: 0.9;
+}
+
+
+.locafoot  {
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  justify-content: center;
+  background-color: black;
+  height: 200px;
+  width: 1200px;
+  margin-top: 600px;
+}
+
+.copyright {
+  margin-left: 20px;
+  text-align: left;
+  position: absolute;
+  margin: auto;
+  margin-left: 20px;
+  margin-top: 1000px;
+
+
+
+}
